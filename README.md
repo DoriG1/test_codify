@@ -16,7 +16,8 @@ API ключ не включен в код приложения.
 
 В данной проекте возникли проблемы с API ключом, возможно срок его действия уже завершился и не получается получить ответ от AI.
 При тестировании в Postman:
-         POST запрос:          http://127.0.0.1:8000/api/send-message/
+
+POST запрос:          http://127.0.0.1:8000/api/send-message/
 1) Во вкладке headers прописать свой Content-Type : application/json
 2) В body>raw прописать запрос в json формате: 
 {
@@ -25,4 +26,4 @@ API ключ не включен в код приложения.
 }
 
        
-        GET запроc:            http://localhost:8000/api/chat-history/
+GET запроc:            http://localhost:8000/api/chat-history/
